@@ -4,9 +4,11 @@
 
 def sum arr
   temp = 0
-  arr.each do
-    temp += |x|
+  if (arr.length > 0)
+  arr.each do |x|
+    temp += x
   end
+  return temp
 end
 
 def max_2_sum arr
