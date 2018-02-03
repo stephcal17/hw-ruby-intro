@@ -3,7 +3,10 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERE
+  temp = 0
+  arr.each do
+    temp += |x|
+  end
 end
 
 def max_2_sum arr
